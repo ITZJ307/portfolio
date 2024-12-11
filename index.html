@@ -3,11 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Protfolio</title>
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to My Protfolio </h1>
-    <h2>This is my portfolio</h2>
-    <h3>Hello</h3>
+
+    <nav>
+        <ul>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="tribute.html">Tribute</a></li>
+            <li><a href="survey.html">Survey</a></li>
+        </ul>
+    </nav>
+
+    <section id="about-me" class="section">
+        <h2>About Me</h2>
+        <img src="your-photo.jpg" alt="Your Photo" class="profile-photo">
+        <p><strong>Name:</strong> Your Name</p>
+        <p><strong>Born:</strong> Your Birthplace</p>
+        <p><strong>Hobbies:</strong> List your hobbies here (e.g., Traveling, Coding, Reading)</p>
+        <p><strong>Goals for the Future:</strong> Your future goals (e.g., Become a web developer, travel the world)</p>
+    </section>
+
+ 
+    <section id="tribute" class="section">
+        <h2>Tribute</h2>
+        <p>Write your tribute here. (Could be a tribute to someone, an event, or an accomplishment)</p>
+    </section>
+
+    
+    <section id="survey" class="section">
+        <h2>Survey</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="feedback">Your Feedback:</label>
+            <textarea id="feedback" name="feedback" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
 </body>
 </html>
+
