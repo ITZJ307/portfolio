@@ -3,46 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Julian Tafoya protfolio</title>
+    <title>Your Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <nav>
-        <ul>
-            <li><a href="#about-me">About Me</a></li>
-            <li><a href="tribute.html">Tribute</a></li>
-            <li><a href="survey.html">Survey</a></li>
-        </ul>
-    </nav>
-
-    <section id="about-me" class="section">
-        <h2>About Me</h2>
-        <img src="https://laramie1-my.sharepoint.com/:i:/g/personal/130838_students_laramie1_org/EWsgC58Vj4RMtQz5o_PBOfEBYYAoZK0bOiTwN4TcJrAidQ?e=mWCbyU" alt="harrsion math class" class="profile-photo">
-        <p><strong>Name:</strong>Julian Joseph Tafoya IV</p>
-        <p><strong>Born:</strong> cheyenne, WY</p>
-        <p><strong>Hobbies:</strong>basketball, baseball, video games, listening to music</p>
-        <p><strong>Goals for the Future:</strong> Attened College with academic or sports scholroship, </p>
+    <section id="about" class="section">
+        <div class="container">
+            <div class="about-content">
+                <img src="MATH.JPG" alt="Your Photo" class="profile-photo">
+                <div class="about-details">
+                    <h2>About Me</h2>
+                    <p><strong>Introduction:</strong>Hello! I'm Julian Tafoya, a web developer based in Cheyenne, WY.</p>
+                    <p><strong>Hobbies:</strong> Basketball, Baseball, Video games, Listening to Music</p>
+                    <p><strong>Goals:</strong> To graduate with above 3.5  GPA and accquire a sporst or acdemic scholorship out of state</p>
+                </div>
+            </div>
+        </div>
     </section>
-
- 
-    <section id="tribute" class="section">
-        <h2>Tribute</h2>
-        <p></p>
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img href="tributepage.html" >
+                    <img src="https://th.bing.com/th/id/OIP.Y7jOretftWQGccorAlLP7wHaHa?rs=1&pid=ImgDetMain" alt="travis Scott">
+                    <div class="project-info">
+                        <h3>Tribute Page</h3>
+                        <p>This tribute page would be a dedicated project to celebrate Travis Scott's career, artistic achievements, and influence.</p>
+                        <a href="tributepage.html" target="_blank">Travis Scott Tribute Page</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="project2.jpg" alt="survey">
+                    <div class="project-info">
+                        <h3>Project Title 2</h3>
+                        <p>A brief description of your project goes here. You can link to live demos or repositories.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="project3.jpg" alt="Project 3">
+                    <div class="project-info">
+                        <h3>Project Title 3</h3>
+                        <p>A brief description of your project goes here. You can link to live demos or repositories.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-
-    
-    <section id="survey" class="section">
-        <h2>Survey</h2>
-        <form action="submit_form.php" method="POST">
-            <label for="name">Your Name:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="feedback">Your Feedback:</label>
-            <textarea id="feedback" name="feedback" required></textarea>
-            <button type="submit">Submit</button>
-        </form>
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <ul class="contact-info">
+                <p>Feel free to reach out to me for collaboration or any inquiries.</p>
+                <li>Personal Email: jaytafoya4@icloud.com</li>
+                <li>School/Work Email: jaytof4@gmail.com</li>
+                <li>Phone:307-630-6611</li>
+                <li><a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/your-username" target="_blank">GitHub</a></li>
+            </ul>
+        </div>
     </section>
+    <footer>
+        <p>&copy; 2024 Julian Tafoya. All rights reserved.</p>
+    </footer>
 
 </body>
 </html>
+
 
