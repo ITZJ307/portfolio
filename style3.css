@@ -1,0 +1,62 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://wallpaperaccess.com/full/2645205.jpg');
+    background-size: cover;
+}
+.form-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+}
+h1#title {
+    font-size: 24px;
+    color: #333;
+}
+p#description {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+label {
+    font-size: 14px;
+    color: #333;
+    display: block;
+    margin-top: 10px;
+    text-align: left;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+.submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.checkbox-group,
+.radio-group {
+    text-align: left;
+    margin-top: 10px;
+}
